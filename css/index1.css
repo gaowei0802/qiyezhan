@@ -1,0 +1,262 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-16 16:06:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-22 20:25:37
+*/
+@import url('base.css');
+header{
+	width: 100%;
+	height: 77px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.1);
+}
+a{
+	text-decoration: none;
+}
+.header_box{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background: white;
+}
+.header_zp{
+	display: block;
+	float: left;
+	width: 195px;
+	height: 48px;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.header_zp img{
+	width: 100%;
+	height: 100%;
+}
+.header_right{
+	max-width: 600px;
+	height: 50px;
+	float: right;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 10px;
+}
+.header_right a{
+	text-decoration: none;
+}
+.header_right1{
+	display: block;
+	font-size: 15px;
+	color: white;
+	margin: 0 15px;
+}
+.header_right .header_right1:first-child{
+	color: skyblue;
+}
+.header_right1:hover{
+	color: #62a8ea;
+}
+.header_box1{
+	width: 100%;
+	margin: 0 auto;
+	background: white;
+}
+.header_zp1{
+	display: block;
+	float: left;
+	width: 165px;
+	height: 38px;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.header_zp1 img{
+	width: 100%;
+	height: 100%;
+}
+.header_right2{
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-right:10px;
+	margin-top: 23px;
+}
+
+
+
+
+
+nav{
+	width: 100%;
+	position: relative;
+}
+nav a{
+	display: block;
+}
+nav a img{
+	width: 100%;
+	height: 100%;
+}
+.nav1 p{
+	position: absolute;
+	right: 0;
+    top: 40%;
+    font-size: 40px;
+    color: white;
+    padding: 0 20%;
+    text-align: center;
+}
+.nav2 p{
+	position: absolute;
+	right: 0;
+    top: 50%;
+    font-size: 21px;
+    color: white;
+    padding: 0 20%;
+    text-align: center;
+}
+
+
+
+
+
+
+.huahui{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.h1{
+	width: 100%;
+	font-size: 40px;
+	color: #37474f;
+	text-align: center;
+}
+.h2{
+	width: 100%;
+	font-size: 20px;
+	color: #63778a;
+	text-align: center;
+}
+
+
+
+
+
+.huahuizp{
+	margin-top: 30px;
+	height: auto;
+}
+.huahuizp img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.huahuizp a{
+	text-decoration: none;
+}	
+.h3{
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0; 
+}
+.h4{
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.xiangqing{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: #f96e6e;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+@media screen and (min-width: 1024px){
+    .header_box{display: block;}
+    .header_box1{display: none;}
+    .nav1{display: block;}
+    .nav2{display: none;}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .header_box{display: block;}
+    .header_box1{display: none;}
+    .nav1{display: block;}
+    .nav2{display: none;}
+}
+@media screen and (max-width: 768px){
+    .header_box{display: none;}
+    .header_box1{display: block;}
+    .nav1{display: none;}
+    .nav2{display: block;}
+}
+
+
+
+footer{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.icon{
+	text-align: center;
+	margin-top: 20px;
+}
+.icon a{
+	text-decoration: none;
+	padding: 0 10px;
+}
+.icon a i{
+	font-family: 'iconfont';
+	font-size: 30px;
+}
+.icon .weixin i{
+	color: #83b944 !important;
+}
+.icon .qq i{
+	color: #62a8ea;
+}
+.icon .youjian i{
+	color: #62a8ea;
+}
+.banquan{
+	text-align: center;
+}
+.bq1{
+	margin-right: 10px;
+}
+.dianhua{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	color: #aaaaaa;
+}
+.gongsi{
+	width: 100%;
+	text-align: center;
+	color: #aaaaaa;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 550806 */
+  src: url('https://at.alicdn.com/t/font_550806_wg1qtzggh18gds4i.eot');
+  src: url('https://at.alicdn.com/t/font_550806_wg1qtzggh18gds4i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_550806_wg1qtzggh18gds4i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_550806_wg1qtzggh18gds4i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_550806_wg1qtzggh18gds4i.svg#iconfont') format('svg');
+}
